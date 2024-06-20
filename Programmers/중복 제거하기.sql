@@ -1,0 +1,4 @@
+#동물 보호소에 들어온 동물의 이름이 몇개인지 조회 (NULL 제외, 중복 제외)
+SELECT COUNT(DISTINCT NAME) 
+FROM ANIMAL_INS 
+WHERE NAME IS NOT NULL;

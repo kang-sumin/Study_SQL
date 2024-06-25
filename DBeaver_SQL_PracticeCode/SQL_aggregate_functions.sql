@@ -21,7 +21,7 @@ SELECT AVG(사용금액) FROM mart.card c ;
 SELECT SUM(사용금액) FROM mart.card c ;
 
 
-#행의 갯수 세기
+#행의 개수 세기
 #괄호안에서 Ctrl + Space 누르면 컬럼명들 볼 수 있음
 SELECT COUNT(사용금액) FROM mart.card c;
 SELECT COUNT(*) FROM mart.card c;
@@ -51,7 +51,7 @@ SELECT 사용금액 FROM mart.card c;
 SELECT 사용금액 FROM mart.card c ORDER BY 사용금액 ASC;
 #최댓값
 SELECT 사용금액 FROM mart.card c ORDER BY 사용금액 DESC;
-# 출력 행 갯수 지정해서 출력할때 -> LIMIT 출력하고자하는 행 갯수
+# 출력 행 개수 지정해서 출력할때 -> LIMIT 출력하고자하는 행 개수
 SELECT 사용금액 FROM mart.card c ORDER BY 사용금액 ASC LIMIT 1;
 SELECT 사용금액 FROM mart.card c ORDER BY 사용금액 DESC LIMIT 1;
 

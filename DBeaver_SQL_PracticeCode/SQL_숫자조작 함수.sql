@@ -31,8 +31,8 @@ SELECT TRUNCATE(10.777,2);
 SELECT POWER(4,3);
 
 
-# 절대값을 출력해 주는 함수 ABS()
-# Absolute Value : 절대값
+# 절댓값을 출력해 주는 함수 ABS()
+# Absolute Value : 절댓값
 SELECT ABS(-100);
 
 
